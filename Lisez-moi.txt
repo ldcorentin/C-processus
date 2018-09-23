@@ -1,0 +1,16 @@
+-------------------- Mode d'emploi du programme ---------------------------
+
+- Tapez "make" pour compiler tous les différents programmes d'un coup
+
+- Exécutez launcher.sh dans un terminal ouvert en plein écran
+	(si besoin taper "chmod u+x ./launcher.sh" pour obtenir la permission de l'exécuter)
+
+- L'affichage des vols se déroule sur le terminal ouvert au début. Un autre terminal s'ouvre, c'est celui avec lequel l'utilisateur communique
+
+- Laissez-vous guider par les instructions
+
+- Pour terminer :
+	tapez ctrl+C, cela termine le programme utilisateur et ferme le terminal dans lequel il était ouvert
+	tapez encore une fois ctrl+C dans l'autre terminal, cela termine tous les autres processus et les ferme proprement
+	(le programme dit qu'il y a une erreur lors de la fermeture des différentes IPC : cela veut dire qu'elles ont déjà été fermées par un autre processus, c'est normal)
+ 
